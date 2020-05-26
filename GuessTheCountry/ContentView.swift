@@ -58,8 +58,7 @@ struct ContentView: View {
                 self.askQuestion()
                 })
         }
-    }
-    
+    }    
     func flagTapped(_ number:Int){
         
         if(number==correctAnswer){
